@@ -64,7 +64,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
     getgenv().team = "Pirates" -- Marines
     loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/e0c7fcf6c077fc23475cf4ce4db58e42.lua"))() }) AddButton(Tab1o, {
       Name = "Blue X ",Callback = function()loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-BlueX/BlueX-Hub/refs/heads/main/Main.lua"))()
-     Callback = function()
+     
     AddButton(Tab1o, {
      Name = "Redz Hub",
     Callback = function()
@@ -79,13 +79,4 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/r
     Name = "CHEST VGB",
     Callback = function()loadstring(game:HttpGet("https://raw.githubusercontent.com/VGB-VGB-VGB/-VGB-Chest-Farm--/refs/heads/main/ChestFarmByVGBTeam"))() end }) 
      
- AddButton(Tab3o, {
-          Name = "Fram cheat",
-          Callback = function()_G.Delay = 3 -- 1 : 1 sec
-            _G.ChestType = "Chest"
-            -- Chest : All chest/normal
-            -- Chest1 : Silver chest
-            -- Chest2 : Gold chest
-            -- Chest3 : Blue chest
-            
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/yabujinfour/bloxfruits/main/auto_chest"))() end })
+ 

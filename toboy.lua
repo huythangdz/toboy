@@ -62,8 +62,8 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
    Callback = function()getgenv().Team = "Marines"
     loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/KimP/refs/heads/main/MaruHub"))() end }) 
      AddButton(Tab1o, {Name = "Blue X ",Callback = function()loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-BlueX/BlueX-Hub/refs/heads/main/Main.lua"))() end })
-     
-      
+     AddButton(Tab1o, {Name = "Shark X Hub ",Callback = function()loadstring(game:HttpGet("https://shorturl.at/kyOxL"))() end })
+     AddButton(Tab1o, {Name = " Raito Hub ",Callback = function()loadstring(game:HttpGet("https://raw.githubusercontent.com/Efe0626/RaitoHub/refs/heads/main/Script"))() end })
     AddButton(Tab1o, {
      Name = "Redz Hub",
     Callback = function()
@@ -74,8 +74,99 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/refs/heads/main/Source.lua"))(Settings)
   end 
-  }) AddButton(Tab3o, {
+  }) AddButton(Tab1o, {Name = "Blue Pray",Callback = function()getgenv().Setting = {
+    ["Team"] = "Pirates",
+    ["Chat"] = {},
+    ["Skip Race V4"] = true,
+    ["Misc"] = {
+        ["Enable Lock Bounty"] = false,
+        ["Lock Bounty"] = {0, 300000000},
+        ["Hide Health"] = {4500,5000},
+        ["Lock Camera"] = true,
+        ["Enable Cam Farm"] = false,
+        ["White Screen"] = false,
+        ["FPS Boost"] = false,
+        ["Bypass TP"] = true,
+        ["Random & Store Fruit"] = true
+    },
+    ["Item"] = {
+        ["Melee"] = {["Enable"] = true,
+            ["Z"] = {["Enable"] = true, ["Hold Time"] = 1},
+            ["X"] = {["Enable"] = true, ["Hold Time"] = 0},
+            ["C"] = {["Enable"] = true, ["Hold Time"] = 0}
+        },
+        ["Blox Fruit"] = {["Enable"] = false,
+            ["Z"] = {["Enable"] = true, ["Hold Time"] = 1.5},
+            ["X"] = {["Enable"] = true, ["Hold Time"] = 0},
+            ["C"] = {["Enable"] = true, ["Hold Time"] = 0},
+            ["V"] = {["Enable"] = true, ["Hold Time"] = 0},
+            ["F"] = {["Enable"] = true, ["Hold Time"] = 0}
+        },
+        ["Sword"] = {["Enable"] = true,
+            ["Z"] = {["Enable"] = true, ["Hold Time"] = 0.3},
+            ["X"] = {["Enable"] = true, ["Hold Time"] = 0.2}
+        },
+        ["Gun"] = {["Enable"] = false,
+            ["Z"] = {["Enable"] = true, ["Hold Time"] = 0.5},
+            ["X"] = {["Enable"] = true, ["Hold Time"] = 0.3}
+        }
+    }
+}
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Ghost-1198/AutoBounty/main/AutoBounty.lua"))() end }) AddButton(Tab3o, {
     Name = "CHEST VGB",
     Callback = function()loadstring(game:HttpGet("https://raw.githubusercontent.com/VGB-VGB-VGB/-VGB-Chest-Farm--/refs/heads/main/ChestFarmByVGBTeam"))() end }) 
-     
- 
+     AddButton(Tab2o, {
+    Name = "Kaitun Hiru",
+    Callback = function()_G.Quest = {
+      ['RGB Aura Haki'] = true,
+      ['Pull Lever'] = true,
+      ['Quest Dough Awaken'] = true
+  }
+  _G.Race = {
+      ['Select Race'] = {'Human','Fishman','Skypiea','Mink'},
+      ['Lock Race'] = true,
+      ['Evo Race V3'] = true
+  }
+  _G.Melee = {
+      ['Godhuman'] = true
+  }
+  _G.Sword = {
+      ['Saber'] = true,
+      ['Midnight Blade'] = true,
+      ['Shisui'] = true,
+      ['Saddi'] = true,
+      ['Wando'] = true,
+      ['Yama'] = true,
+      ['Koko'] = false,
+      ['Rengoku'] = true,
+      ['Canvander'] = true,
+      ['Buddy Sword'] = true,
+      ['Twin Hooks'] = true,
+      ['SpikeyTrident'] = true,
+      ['Hallow Scryte'] = true,
+      ['Dark Dagger'] = true,
+      ['Tushita'] = true,
+      ['True Triple Katana'] = true,
+      ['Cursed Dual Katana'] = true,
+      ['Shark Anchor'] = true
+  }
+  _G.Gun = {
+      ['Kabucha'] = true,
+      ['Acidum Rifle'] = true,
+      ['Soul Guitar'] = true,
+      ['Serpent Bow'] = true
+  }
+  _G.Fruit = {
+      ['Main Fruit'] = {'Kitsune-Kitsune','T-Rex-T-Rex','Mammoth-Mammoth'},
+      ['Select Fruit'] = {'Dark-Dark','Magma-Magma'}
+  }
+  _G.Mastery = {
+      ['Melee'] = true,
+      ['Sword'] = true,
+      ['Fruit'] = true
+  }
+  _G.Setting = {
+      ['FPS Booster'] = true,
+      ['Auto Close Ui'] = false
+  }
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/NGUYENVUDUY1/Super/refs/heads/main/Kaitun.lua"))() end }) 

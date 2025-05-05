@@ -117,7 +117,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Ghost-1198/AutoBounty
     Callback = function()loadstring(game:HttpGet("https://raw.githubusercontent.com/VGB-VGB-VGB/-VGB-Chest-Farm--/refs/heads/main/ChestFarmByVGBTeam"))() end }) 
     AddButton(Tab1o, {Name = "Masune hub",
 Callback = function() getgenv().Team = "Pirates"
-loadstring(game:HttpGet("https://raw.githubusercontent.com/RealMatsune/Rolls-Rocye/refs/heads/main/Loading.lua"))() end }) AddButton(Tab2o, {name = ""Script kaitun",Callback = function()_G.Config = {
+loadstring(game:HttpGet("https://raw.githubusercontent.com/RealMatsune/Rolls-Rocye/refs/heads/main/Loading.lua"))() end }) AddButton(Tab2o, {name = "Script kaitun",Callback = function()_G.Config = {
 ["Melee"] = {
 ["Superhuman"] = true,
 ["Death Step"] = true,
